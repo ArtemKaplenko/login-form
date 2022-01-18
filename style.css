@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #5256AD;
+}
+
+main {
+  height: 50vh;
+  width: 70vh;
+  margin: 200px auto;
+  position: relative;
+}
+
+.log-in {
+  max-width: 300px;
+  min-width: 80px;
+  width: 100%;
+  min-height: 100px;
+  max-height: 400px;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.sign-up {
+  max-width: 650px;
+  min-width: 420px;
+  width: 100%;
+  min-height: 80px;
+  max-height: 350px;
+  height: 100%;
+  background-color: #9A9EDE;
+  position: absolute;
+  left: -40px;
+  top: 25px;
+  z-index: -1;
+  padding-left: 55%;
+  padding-top: 20%;
+}
+
+input, button, form {
+  display: block;
+}
+
+input {
+  border: 2px solid #dddddd;
+  border-radius: 2px;
+  height: 30px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.sign-btn {
+  margin: 10% 25%;
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  background-color: rgba(0, 0, 255, 0);
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.sign-btn:hover {
+  color: #5256AD;
+  border: 2px solid #5256AD;
+  background-color: #ffffff;
+}
+
+form {
+  height: 100%;
+}
+
+
+
+form>input:first-child {
+  margin-top: 20px;
+}
