@@ -10,8 +10,8 @@ body {
 }
 
 main {
-  height: 50vh;
-  width: 70vh;
+  height: 100vh;
+  width: 90vh;
   margin: 200px auto;
   position: relative;
 }
@@ -27,7 +27,7 @@ main {
 }
 
 .sign-up {
-  max-width: 650px;
+  max-width: 800px;
   min-width: 420px;
   width: 100%;
   min-height: 80px;
@@ -49,7 +49,10 @@ input, button, form {
 input {
   border: 2px solid #dddddd;
   border-radius: 2px;
-  height: 30px;
+  height: 2.7em;
+  width: 16em;
+  font-size: 1em;
+  padding-left: 1em;
 }
 
 h2 {
@@ -75,10 +78,17 @@ h2 {
 
 form {
   height: 100%;
+  padding-top: 30%;
 }
 
+form>* {
+  margin: 10% auto;
+}
 
-
-form>input:first-child {
-  margin-top: 20px;
+.log-btn {
+  padding: 0.5em 1em;
+  font-size: 1.2em;
+  background-color: #FB75B4;
+  border: 4px solid #FFD0E9;
+  border-radius: 2px;
 }
